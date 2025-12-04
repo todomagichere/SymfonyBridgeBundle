@@ -59,4 +59,9 @@ class OwnContainer implements OwnContainerInterface
             $this->entityId
         );
     }
+
+    public function getOwnEntityId()
+    {
+        return $this->entityId;
+    }
 }
